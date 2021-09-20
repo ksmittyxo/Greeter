@@ -1,5 +1,8 @@
 public class Greeter {
     public static void main(String[] args) {
-        System.out.printf("Greetings, Earthlings!\n");
+        
+        String nameToGreet = "Earthlings";
+        
+        System.out.printf("Greetings, %s!\n", nameToGreet);
     }
 }
