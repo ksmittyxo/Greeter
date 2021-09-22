@@ -7,11 +7,11 @@ public class GreetMachine {
         name = DEFAULT_NAME;
     }
     
-    public GreetMAchine(String name_in) {
+    public GreetMachine(String name_in) {
         name = name_in;
     }
     
     public String toString() {
-        
+        return "Greetings, " + name;
     }
 }
