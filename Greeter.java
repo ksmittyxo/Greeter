@@ -5,6 +5,8 @@ public class Greeter {
         String nameToGreet = 
             args.length > 0 ? args[0] : "Earthlings";
         
+        GreetMachine gmDefalut = new GreetMachine();
+        System.out.println(gmDefalut);
         GreetMachine gm = new GreetMachine(nameToGreet);
         System.out.println(gm);
     }
